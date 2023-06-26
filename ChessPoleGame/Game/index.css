@@ -1,0 +1,141 @@
+
+/* Общее */
+#game{
+	display: flex;
+}
+#headers{
+	width: 100%;
+	height: 70px;
+	font-size: 40px;
+	font-weight: 550;
+	padding: 10px;
+	background: #00561D;
+	margin-bottom: 10px;
+	color: black;
+}
+body{
+	background: #282923;
+	color: green;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+button{
+	background: #00561D;
+}
+/* Конец общих настроек */
+
+/* Поля шахматной доски */
+h2{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.poleX1,.poleX2,.poleX3,.poleX4,
+.poleX5,.poleX6,.poleX7,.poleX8,.poleX0{
+	width: 700px;
+	height: 70px;
+	display: flex;
+}
+.poleY_corA,.poleY_corB,.poleY_corC,.poleY_corD,
+.poleY_corE,.poleY_corF,.poleY_corG,.poleY_corH{
+	min-width: 72px;
+	height: 70px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+.poleY1,.poleY2,.poleY3,.poleY4,
+.poleY5,.poleY6,.poleY7,.poleY8{
+	width: 70px;
+	height: 70px;
+	border: solid 1px;
+	background: #BBB6A6;
+}
+.poleY1:active,.poleY2:active,.poleY3:active,.poleY4:active,
+.poleY5:active,.poleY6:active,.poleY7:active,.poleY8:active{
+	background: green;
+}
+
+.poleY2,.poleY4,.poleY6,.poleY8{
+	background: black;
+}
+
+
+/* Конец Полей шахматной доски */
+
+/* Интерфейс ниже! */
+#interfece{
+	width: 500px;
+}
+#Rest,#Coord{
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 700;
+}
+#NameText{
+	padding: 5px;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 50px;
+	width: 350px;
+	border: solid 2px;
+	border-radius: 10px;
+}
+#ResulText{
+	padding: 5px;
+	padding-left: 25px;
+	font-size: 30px;
+	font-weight: 600;
+	width: 300px;
+	height: 70px;
+	margin-top: 50px;
+	margin-left: 10px;
+	border: solid 2px;
+	border-radius: 10px;
+}
+#point{
+	display: flex;
+}
+#text, #text2 ,#text1{
+	font-size: 30px;
+}
+#text2{
+	margin-left: 300px;
+}
+#text1{
+	margin-top: 50px;
+}
+#dameg{
+	padding: 5px;
+	font-size: 30px;
+	font-weight: 600;
+	width: 300px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 10px;
+	border: solid 2px;
+	border-radius: 10px;
+}
+#start{
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+#points,#pointss{
+	padding: 5px;
+	font-size: 30px;
+	font-weight: 600;
+	width: 200px;
+	margin-top: 50px;
+	border: solid 2px;
+	border-radius: 10px;
+}
+#timer{
+	margin-top: 50px;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: 700;
+	margin-left: 100px;
+	padding-right: 100px;
+}
+/* Конец Интерфейса! */

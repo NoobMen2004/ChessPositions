@@ -1,0 +1,64 @@
+body{
+	background: #282923;
+	color: green;
+	overflow-x: hidden;
+}
+button{
+	background: #00561D;
+}
+#manu{
+	width: 300px;
+	border: solid 2px;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+#but1,#but2,#but3{
+	width: 300px;
+	height: 50px;
+	font-size: 20px;
+	border-color: solid 2px;
+	background: #00561D;
+}
+
+/* Доска начало */
+#dosca{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	z-index: -1;
+}
+#dosca2{
+	position: absolute;
+	left: 65%;
+	top: 25%;
+	z-index: -1;
+}
+.poleX1,.poleX2,.poleX3,.poleX4,
+.poleX5,.poleX6,.poleX7,.poleX8{
+	width: 600px;
+	height: 40px;
+	display: flex;
+}
+.poleY_corA,.poleY_corB,.poleY_corC,.poleY_corD,
+.poleY_corE,.poleY_corF,.poleY_corG,.poleY_corH{
+	min-width: 42px;
+	height: 40px;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+.poleY1,.poleY2,.poleY3,.poleY4,
+.poleY5,.poleY6,.poleY7,.poleY8{
+	width: 40px;
+	height: 40px;
+	border: solid 1px;
+	background: #BBB6A6;
+}
+.poleY1:active,.poleY2:active,.poleY3:active,.poleY4:active,
+.poleY5:active,.poleY6:active,.poleY7:active,.poleY8:active{
+	background: green;
+}
+.poleY2,.poleY4,.poleY6,.poleY8{
+	background: black;
+}
+/* Доска конец */
